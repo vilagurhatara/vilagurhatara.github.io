@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+
+  }
+body {
+    background-image: linear-gradient(#2f455c, #6998c6);
+
+}
+#red {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(black, #2f455c);
+}
+#purple {
+    width: 100%;
+    height: 100vh;
+}
+#blue {
+    width: 100%;
+    height: 100vh;
+}
+#yestllow {
+    width: 100%;
+    height: 100vh;
+}
+#start {
+    background-color: #117c13	;
+    width: 100%;
+    height: 10vh;
+}
+.szoveg {
+    position: relative;
+    top: 15%;
+    padding: 20vh;
+    font-size: large;
+}
+h1 {
+    font-size: 5em;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+#urhajo {
+    width:6rem;
+    height:10rem;
+    position: fixed;
+    bottom: 7rem;
+    right: 5rem;
+}

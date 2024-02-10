@@ -1,0 +1,107 @@
+:root {
+    --yellow: #ffc600;
+  }
+  
+  html {
+    background-color: #202124;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  p {
+    line-height: 1.8;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .linking {
+    color: grey ;
+    text-decoration: underline wavy var(--yellow);
+  }
+  
+  h1,
+  h2 {
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+  }
+  
+  .post {
+    display: grid;
+    max-width: 1000px;
+    margin: 200px auto;
+    grid-template-columns: 3fr 12fr 5fr;
+    grid-gap: 10px 20px;
+  }
+  
+  .post > * {
+    grid-column: 2 / -2;
+  }
+  
+  .post > figure {
+    margin: 0;
+    grid-column: 1 / -1;
+  }
+  
+  
+  figcaption {
+    font-size: 12px;
+  }
+  
+  .post > blockquote {
+    grid-column: 1 / -1;
+    font-size: 60px;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .tip {
+    background: #36454f ;
+    padding: 10px;
+    grid-row: span 5;
+    align-self: start;
+  }
+  
+  .tip-left {
+    grid-column: 1 / span 1;
+    text-align: right;
+    border-right: 2px solid var(--yellow);
+  }
+  
+  .tip-right {
+    grid-column: span 1 / -1;
+    border-left: 2px solid var(--yellow);
+  }
+
+  /* Style the header */
+.header {
+  padding: 5px 10px;
+  background: #555;
+  color: #F2F3F5 ;
+}
+
+.header {
+  background-color: #141414	;
+  padding: 20px;
+}
+
+.header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #F2F3F5 ;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
